@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+  functions = "functions"
+
+[[redirects]]
+  from = "/library/*"
+  to = "/library/index.html"
+  status = 200

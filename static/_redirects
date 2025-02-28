@@ -1,0 +1,6 @@
+# Redirect from root to subdirectory
+/library              /library/index.html        200
+/library/*            /library/:splat            200
+
+# SPA fallback for the app
+/library/*            /library/index.html        200
